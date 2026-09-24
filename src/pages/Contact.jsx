@@ -36,9 +36,9 @@ function Contact() {
       <div className="contact-grid">
         <div className="contact-info">
           <h2>Get in touch</h2>
-          <p>Email: michael.johnson@example.com</p>
+          <p>Email: michael.johnson@portfolio.com</p>
           <p>Phone: +1 (416) 555-0142</p>
-          <p>Location: Toronto, Canada</p>
+          <p>Location: London, UK</p>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>
