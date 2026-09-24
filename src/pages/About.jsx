@@ -1,12 +1,14 @@
-import Portrait from '../components/Portrait.jsx'
-
 // About view: name, profile image, short biography, and a link
 // to a downloadable PDF résumé.
 function About() {
   return (
     <section className="about">
       <div className="about-grid">
-        <Portrait size={220} />
+        <img
+          src="/profile_pic.jpg"
+          alt="Michael Johnson"
+          className="profile-photo"
+        />
         <div>
           <h1>Michael Johnson</h1>
           <p className="role">Full-Stack Developer &amp; Lifelong Learner</p>
